@@ -1,18 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(50deg,red,blue);
 }
 input{
-    width: 50vw;
+    width: 20vw;
+    height: 3vh;
+    background-color: black;
+    border: 0;
+    color: white;
+    font-size: 15pt;
+    text-indent: 10pt;
 }
 select{
-    width: 50vw;
+    width: 15vw;
+    margin-right: 95px;
+    height: 3vh;
+    background-color: black;
+    border: 0;
+    color: white;
+    font-size: 15pt;
+    text-indent: 10pt;
 
 }
 button{
-    width: 50px;
+    width: 5vw;
+    height: 3vh;
+    margin-right: 287px;
 }
 .main *{
     margin-top: 50px;
