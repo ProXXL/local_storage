@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 50vw;
+}
+select{
+    width: 50vw;
+
+}
+button{
+    width: 50px;
+}
+.main *{
+    margin-top: 50px;
+}
